@@ -10,8 +10,8 @@
 		<script src="https://fil.nrk.no/contentfile/web/files/nrk.no/distrikt/js/highcharts.js"></script>
 		<script src="https://fil.nrk.no/contentfile/web/files/nrk.no/distrikt/js/highcharts-more.js"></script>
 
-		<script>
-		$(document).ready(function () {
+<script type="text/javascript">
+	$(document).ready(function () {
 			var boligCalc, transportCalc, matCalc, elartikkelCalc, streamingCalc, forbrukCalc = false;
 			var initFormCalc = false;
 
@@ -195,20 +195,23 @@
 						radius: 4,
 						symbol: 'circle', /* "circle", "square", "diamond", "triangle" and "triangle-down" */
 						lineColor: null // inherit from above defined colors
-					}
+						}
 					},
+
 					column: {
 						cursor: 'pointer',
 						borderColor: '#333',
 						borderWidth: 1,
 						shadow: false
 					},
+
 					bar: {
 						cursor: 'pointer',
 						borderColor: '#333',
 						borderWidth: 1,
 						shadow: false
 					},
+
 					pie: {
 						cursor: 'pointer',
 						borderColor: '#666',
@@ -216,7 +219,7 @@
 						shadow: false
 					}
 				}
-			};
+	};
 			Highcharts.setOptions(Highcharts.theme);
 			var myPie;
 			var myGauge;
@@ -790,10 +793,12 @@
 				else {
 					return;
 				}
-				Serum.Sandbox.refresh();
+				//Serum.Sandbox.refresh();
 			}
 		});
+	</script>
 
+	<script type="text/javascript">
 		(function() {
 			var src = 'https://www.nrk.no/serum/latest/js/sandbox';
 			if(typeof require === 'function' && typeof define == 'function' && define.amd) {
