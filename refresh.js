@@ -20,7 +20,7 @@ function refresh() {
  
   outputElement2.textContent = sum4;
 
-  // UTREGNING INTERNETTBRUK
+  // UTREGNING INTERNETTBRUK - ER EN FEIL HER JEG IKKE SKJØNENR!!!
 
   const sum5 = ((get("epost") * 20) / 1000) * 52;
   const sum6 = ((get("internett") * 52) / 1000) * 1;
@@ -29,5 +29,20 @@ function refresh() {
 
   outputElement3.textContent = sum7;
 
-  
+  // UTREGNING MOROSAME TING
+
+  const sum8 = ((get("spillkonsoll") * 50) / 1000) * 52;
+  const sum9 = ((get("spillpc") * 90) / 1000) * 52;
+  const sum10 = ((get("kino") * 2400) / 1000) * 52;
+
+  const sum11 = sum8 + sum9 + sum10;
+
+  outputElement4.textContent = sum11;
+
+
+  // TOTALT UTSLIPP
+
+  const sum50 = sum3 + sum4 + sum7 + sum10;
+
+  outputElement6.textContent = sum50;
 }
