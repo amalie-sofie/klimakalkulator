@@ -46,8 +46,8 @@
 			var elartikkelkalkulasjon = ({telefonkjop: 0, datamaskinkjop: 0, tvkjop: 0, annet:0.1});
 
 			// STREAMING
-			var streamingparameterCO2 = ({streamingantall:0.1, kgstreaming:1.5});
-			var streamingkalkulasjon = ({streamingantall: 0, annet:0.1});
+			var streamingparameterCO2 = ({streamingantall:0.1, streamingmusikkantall:0.055 kgstreaming:1.5});
+			var streamingkalkulasjon = ({streamingantall: 0, streamingmusikkantall: 0, annet:0.1});
 
 			// FORBRUK
 			var forbrukparametereCO2 = ({utslippsfaktorforbruk_krone:0.04 , gjennomsnittfaktor: 0.4, forbrukmaned: 13504, undersnitt: 0.75, snitt: 1, oversnitt: 1.25});
@@ -707,7 +707,7 @@
 			function calculateStreamingCO2() {
 				streamingCalc = true;
 				var streamingCO2 = 0;
-				streamingCO2 = (streamingkalkulasjon.streamingantall) / 1000;
+				streamingCO2 = (streamingkalkulasjon.streamingantall + streamingkalkulasjon.streamingmusikkantall) / 1000;
 				streamingCO2 = streamingCO2 + streamingkalkulasjon.annet;
 				streamingCO2 = streamingCO2.toFixed(2);
 				kategoriResultat.streaming = Number(streamingCO2);
@@ -921,7 +921,8 @@
 					<div id="formtitle">Streaming</div>
 					<div id="formsubtitle">Antall timer streamet i uken</div>
 					<ul id="streaminginput" class="inputtext">
-						<li><div id="forminput"><div id="desc">Timer i uken</div><input type="text" value="" name="streamingantall" id="streamingantall"/></div></li>
+						<li><div id="forminput"><div id="desc">Tv, filmer og serier</div><input type="text" value="" name="streamingantall" id="streamingantall"/></div></li>
+						<li><div id="forminput"><div id="desc">Musikk</div><input type="text" value="" name="streaminmusikkgantall" id="streamingmusikkantall"/></div></li>
 					</ul>
 				</div>
 			</div>
