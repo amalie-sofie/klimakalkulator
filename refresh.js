@@ -46,6 +46,8 @@ function refresh() {
 
   const sum15 = sum12 + sum13 + sum14;
 
+  outputElement4.textContent = sum15;
+
   // TOTALT UTSLIPP
 
   const sum50 = sum3 + sum4 + sum7 + sum11 + sum15;
