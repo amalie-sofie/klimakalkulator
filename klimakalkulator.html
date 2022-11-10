@@ -768,7 +768,7 @@
 
 			//CALCULATE TOTAL
 			function calculateTotal() {
-				kategoriResultat.total = Number(kategoriResultat.bolig) + Number(kategoriResultat.transport) + Number(kategoriResultat.mat) + Number(kategoriResultat.elartikkel) + Number(kategoriResultat.streaming) + Number(kategoriResultat.forbruk);
+				kategoriResultat.total = Number(kategoriResultat.bolig) + Number(kategoriResultat.transport) + Number(kategoriResultat.mat) + Number(kategoriResultat.elartikkel) + Number(kategoriResultat.streaming) + Number(kategoriResultat.skylagring) + Number(kategoriResultat.forbruk);
 				showResult(kategoriResultat.total);
 				kategoriResultat.total = kategoriResultat.total.toFixed(2);
 				var boligprosent = Number(kategoriResultat.bolig) / kategoriResultat.total;
@@ -776,11 +776,12 @@
 				var matprosent = Number(kategoriResultat.mat) / kategoriResultat.total;
 				var elartikkelprosent = Number(kategoriResultat.elartikkel) / kategoriResultat.total;
 				var streamingprosent = Number(kategoriResultat.streaming) / kategoriResultat.total;
+				var skylagringprosent = Number(kategoriResultat.skylagring) / kategoriResultat.total;
 				var forbrukprosent = Number(kategoriResultat.forbruk) / kategoriResultat.total;
 				$('#klimakalkulatorwrapper #resultatside #Totalco2resultat').html("Totalt forbruk: <b style='text-decoration:underline'>" + kategoriResultat.total + "</b> tonn CO<sub>2</sub>");
-				showPercentage(boligprosent,transportprosent,matprosent,elartikkelprosent,streamingprosent,forbrukprosent);
+				showPercentage(boligprosent,transportprosent,matprosent,elartikkelprosent,streamingprosent,skylagrinprosent,forbrukprosent);
 				Serum.Sandbox.refresh();
-				if(boligCalc && transportCalc && matCalc && elartikkelCalc && streamingCalc &&forbrukCalc && initFormCalc != true) {
+				if(boligCalc && transportCalc && matCalc && elartikkelCalc && streamingCalc && skylagringCalc && forbrukCalc && initFormCalc != true) {
 					initForm();
 					initFormCalc = true;
 					setTekst();
