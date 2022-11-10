@@ -1,4 +1,4 @@
-	html { font-size: 1em; margin:0;padding:0;height:auto;}
+ing	html { font-size: 1em; margin:0;padding:0;height:auto;}
 	body { font-size: 1em;margin:0;padding:0;height:auto;}
 
 		@media (max-width: 320px) {
@@ -120,6 +120,13 @@
 		}
 
 		#klimakalkulatorwrapper #streamingside {
+			width:100%;
+			display:table;
+			background: #eee;
+			border-radius: 8px;
+		}
+
+		#klimakalkulatorwrapper #skylagringside {
 			width:100%;
 			display:table;
 			background: #eee;
