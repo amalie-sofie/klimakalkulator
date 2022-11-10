@@ -1,5 +1,9 @@
 const outputElement = document.querySelector("#output");
 const outputElement2 = document.querySelector("#output2");
+const outputElement3 = document.querySelector("#output3");
+const outputElement4 = document.querySelector("#output4");
+const outputElement5 = document.querySelector("#output5");
+
 
 function refresh() {
 
