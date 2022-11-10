@@ -29,7 +29,7 @@ function refresh() {
 
   outputElement3.textContent = sum7;
 
-  // UTREGNING MOROSAME TING
+  // UTREGNING MOROSAME TING - Denne reagerer på inputs fra alle andre
 
   const sum8 = ((get("spillkonsoll") * 50) / 1000) * 52;
   const sum9 = ((get("spillpc") * 90) / 1000) * 52;
