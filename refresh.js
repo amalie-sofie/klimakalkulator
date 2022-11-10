@@ -29,7 +29,7 @@ function refresh() {
 
   outputElement3.textContent = sum7;
 
-  // UTREGNING MOROSAME TING - Denne reagerer på inputs fra alle andre
+  // UTREGNING MOROSAME TING - 
 
   const sum8 = ((get("spillkonsoll") * 50) / 1000) * 52;
   const sum9 = ((get("spillpc") * 90) / 1000) * 52;
@@ -39,14 +39,14 @@ function refresh() {
 
   outputElement4.textContent = sum11;
 
-  // UTREGNING ELARTIKLER
+  // UTREGNING ELARTIKLER - denne rea
   const sum12 = ((get("elartikkelpc") * 280));
   const sum13 = ((get("elartikkelmobil") * 62));
   const sum14 = ((get("elartikkeltv") * 175));
 
   const sum15 = sum12 + sum13 + sum14;
 
-  outputElement4.textContent = sum15;
+  outputElement5.textContent = sum15;
 
   // TOTALT UTSLIPP
 
