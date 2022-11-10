@@ -20,5 +20,12 @@ function refresh() {
  
   outputElement2.textContent = sum4;
 
- 
+  // UTREGNING INTERNETTBRUK
+
+  const sum5 = ((get("epost") * 20) / 1000) * 52;
+  const sum6 = ((get("internett") * 52) / 1000);
+
+  const sum7 = sum5 + sum6;
+
+  
 }
