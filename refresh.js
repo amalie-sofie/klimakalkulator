@@ -39,10 +39,16 @@ function refresh() {
 
   outputElement4.textContent = sum11;
 
+  // UTREGNING ELARTIKLER
+  const sum12 = ((get("elartikkelpc") * 280));
+  const sum13 = ((get("elartikkelmobil") * 62));
+  const sum14 = ((get("elartikkeltv") * 175));
+
+  const sum15 = sum12 + sum13 + sum14;
 
   // TOTALT UTSLIPP
 
-  const sum50 = sum3 + sum4 + sum7 + sum10;
+  const sum50 = sum3 + sum4 + sum7 + sum11 + sum15;
 
   outputElement6.textContent = sum50;
 }
