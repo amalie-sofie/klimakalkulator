@@ -21,7 +21,7 @@ function refresh() {
  
   outputElement2.textContent = sum4;
 
-  // UTREGNING INTERNETTBRUK - ER EN FEIL HER JEG IKKE SKJØNENR!!!
+  // UTREGNING INTERNETTBRUK 
 
   const sum5 = ((get("epost") * 20) / 1000) * 52;
   const sum6 = ((get("internett") * 52) / 1000) * 1;
@@ -30,7 +30,7 @@ function refresh() {
 
   outputElement3.textContent = sum7;
 
-  // UTREGNING MOROSAME TING - 
+  // UTREGNING MOROSAME TING  
 
   const sum8 = ((get("spillkonsoll") * 50) / 1000) * 52;
   const sum9 = ((get("spillpc") * 90) / 1000) * 52;
@@ -40,7 +40,7 @@ function refresh() {
 
   outputElement4.textContent = sum11;
 
-  // UTREGNING ELARTIKLER - denne rea
+  // UTREGNING ELARTIKLER 
   const sum12 = ((get("elartikkelpc") * 280));
   const sum13 = ((get("elartikkelmobil") * 62));
   const sum14 = ((get("elartikkeltv") * 175));
