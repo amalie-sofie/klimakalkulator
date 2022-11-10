@@ -11,8 +11,29 @@ header {
 	text-align: center;
 }
 
-main {
+#introduksjon {
 	background-color: white;
+	height: 50vh;
+}
+
+#streaming {
+	height: 30vh;
+}
+
+#skylagring {
+	height: 30vh;
+}
+
+#nettbruk {
+	height: 30vh;
+}
+
+#morosamme {
+	height: 30vh;
+}
+
+#elartikler {
+	height: 30vh;
 }
 
 footer {
