@@ -44,5 +44,5 @@ function refresh() {
 
   const sum50 = sum3 + sum4 + sum7 + sum10;
 
-  outputElement6.textContent = sum50;
+  outputElement5.textContent = sum50;
 }
