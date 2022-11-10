@@ -3,7 +3,7 @@ const outputElement2 = document.querySelector("#output2");
 const outputElement3 = document.querySelector("#output3");
 const outputElement4 = document.querySelector("#output4");
 const outputElement5 = document.querySelector("#output5");
-const outputElement6 = document.querySelector("#output5");
+const outputElement6 = document.querySelector("#output6");
 
 function refresh() {
 // UTREGNING STREAM
