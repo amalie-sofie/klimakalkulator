@@ -4,7 +4,7 @@ const outputElement3 = document.querySelector("#output3");
 const outputElement4 = document.querySelector("#output4");
 const outputElement5 = document.querySelector("#output5");
 const outputElement6 = document.querySelector("#output6");
-const outputElement7 = document.querySelector("#output6");
+const outputElement7 = document.querySelector("#output7");
 
 function refresh() {
 // UTREGNING STREAM
@@ -50,10 +50,14 @@ function refresh() {
   outputElement5.textContent = sum15;
 
  // TOTALT DIGITAL JOBB 
+  const sum16 = ((get("digitaljobb") * 728));
+
+  outputElement6.textContent = sum16;
  
+
   // TOTALT UTSLIPP
 
-  const sum50 = sum3 + sum4 + sum7 + sum11 + sum15;
+  const sum50 = sum3 + sum4 + sum7 + sum11 + sum15 + sum16;
 
   outputElement7.textContent = sum50;
 }
