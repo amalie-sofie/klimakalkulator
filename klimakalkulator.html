@@ -727,6 +727,18 @@
 				calculateTotal();
 				$('#klimakalkulatorwrapper #resultatside #Streamingco2resultat').html("Streaming: <b>" + streamingCO2 + "</b> tonn CO<sub>2</sub>");
 			}
+
+			//CALCULATE SKYLAGRING
+			function calculateSkylagringCO2() {
+				skylagringCalc = true;
+				var skylagringCO2 = 0;
+				skylagringCO2 = (skylagringkalkulasjon.skylagringgantall) / 1000;
+				streamingCO2 = skylagringCO2 + skylagringkalkulasjon.annet;
+				skylagringCO2 = skylagringCO2.toFixed(2);
+				kategoriResultat.skylagring = Number(skylagringCO2);
+				calculateTotal();
+				$('#klimakalkulatorwrapper #resultatside #Skylagringco2resultat').html("Skylagring: <b>" + skylagringCO2 + "</b> tonn CO<sub>2</sub>");
+			}
 			//CALCULATE FORBRUK
 			function calculateForbrukCO2(husstand) {
 				forbrukCalc = true;
