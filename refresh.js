@@ -27,5 +27,7 @@ function refresh() {
 
   const sum7 = sum5 + sum6;
 
+  outputElement3.textContent = sum7;
+
   
 }
