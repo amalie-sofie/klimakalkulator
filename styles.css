@@ -7,9 +7,7 @@ body {
 header {
 	background-color: aqua;
 	height: 10vh;
-	width: 100%;
-	padding-left: 10rem;
-	padding-right: 10rem;
+	width: 100vw;
 	text-align: center;
 }
 
