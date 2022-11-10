@@ -49,6 +49,10 @@
 			var streamingparameterCO2 = ({streamingantall:0.1, streamingmusikkantall:0.055 kgstreaming:1.5});
 			var streamingkalkulasjon = ({streamingantall: 0, streamingmusikkantall: 0, annet:0.1});
 
+			// SKYLAGRING
+			var skylagringparameterCO2 = ({skylagringantall:0.526, kgsky:1.5});
+			var skylagringkalkulasjon = ({skylagringantall: 0, annet:0.1});
+
 			// FORBRUK
 			var forbrukparametereCO2 = ({utslippsfaktorforbruk_krone:0.04 , gjennomsnittfaktor: 0.4, forbrukmaned: 13504, undersnitt: 0.75, snitt: 1, oversnitt: 1.25});
 			var forbrukerkalkulasjon = ({nettoinntekt: 25000, utgifter: 0, utslipptotal: 0, forbrukertype: 0});
@@ -591,6 +595,15 @@
 				calculateStreamingCO2();
 			});
 
+			//SKYLAGRING
+			$(document).on("keyup", "#klimakalkulatorwrapper #skylagringside input", function(e) {
+				e.stopPropagation();
+				switch ($(this).attr('id')) {
+					case 'skylagringantall': skylagringkalkulasjon.skylagringantall = Number($(this).val()) * skylagringparameterCO2.skylagringgantall * skylagringparameterCO2.kgsky;
+					break;
+				}
+				calculateSkylagringCO2();
+
 			//FORBRUK
 			$(document).on("keyup", "#klimakalkulatorwrapper #forbrukside input", function(e) {
 				e.stopPropagation();
@@ -929,6 +942,22 @@
 		</div>
 		<!-- STREAMINGSIDE SLUTT-->
 
+		<!-- SKYLAGRINGSIDE-->
+		<div id="skylagringside">
+			<div id="formgrafikk" style="margin-top:1em;"><img src="grafikk/mat200.png"/></div>
+			<div id="formelement" style="float:left;">
+				<div id="forminputwrapper" class="elartikkel">
+					<div id="formtitle">Skylagring</div>
+					<div id="formsubtitle">Antall GB lagret i skyen</div>
+					<ul id="streaminginput" class="inputtext">
+						<li><div id="forminput"><div id="desc">GB lagret</div><input type="text" value="" name="skylagringantall" id="skylagringantall"/></div></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- SKYLAGRINGSIDE-- SLUTT-->
+
 		<!-- RESULTATSIDE -->
 		<div id="resultatside">
 			<div id="resultatwrap">
@@ -936,6 +965,7 @@
 				<div id="Transportco2resultat"></div>
 				<div id="Elartikkelco2resultat"></div>
 				<div id="Streamingco2resultat"></div>
+				<div id="Skylagringco2resultat"></div>
 				<div id="Matco2resultat"></div>
 				<div id="Forbrukco2resultat"></div>
 			</div>
