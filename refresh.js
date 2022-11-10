@@ -7,11 +7,11 @@ const outputElement6 = document.querySelector("#output5");
 
 function refresh() {
 
-  const sum = ((get("streamtv") * 100) / 1000) * 52);
-  const sum2 = ((get("test1") * 100) / 1000) * 52;
+  const sum = ((get("streamtv") * 100) / 1000) * 52;
+  const sum2 = ((get("streammusikk") * 36) / 1000) * 52;
 
   const sum3 = sum + sum2;
 
-  outputElement.textContent = sum;
-  outputElement2.textContent = sum3;
+  outputElement.textContent = sum3;
+  outputElement2.textContent = sum4;
 }
