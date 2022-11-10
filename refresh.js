@@ -35,14 +35,14 @@ function refresh() {
   const sum9 = ((get("spillpc") * 90) / 1000) * 52;
   const sum10 = ((get("kino") * 2400) / 1000) * 52;
 
-  const sum10 = sum8 + sum9 + sum10;
+  const sum11 = sum8 + sum9 + sum10;
 
-  outputElement4.textContent = sum10;
+  outputElement4.textContent = sum11;
 
 
   // TOTALT UTSLIPP
 
   const sum50 = sum3 + sum4 + sum7 + sum10;
 
-  outputElement5.textContent = sum50;
+  outputElement6.textContent = sum50;
 }
