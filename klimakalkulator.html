@@ -591,6 +591,7 @@
 				switch ($(this).attr('id')) {
 					case 'streamingantall': streamingkalkulasjon.streamingantall = Number($(this).val()) * 52 * streamingparameterCO2.streamingantall * streamingparameterCO2.kgstreaming;
 					break;
+					default: return;
 				}
 				calculateStreamingCO2();
 			});
@@ -601,6 +602,9 @@
 				switch ($(this).attr('id')) {
 					case 'skylagringantall': skylagringkalkulasjon.skylagringantall = Number($(this).val()) * skylagringparameterCO2.skylagringgantall * skylagringparameterCO2.kgsky;
 					break;
+					case 'skylagringantall': skylagringkalkulasjon.epostantall = Number($(this).val()) * skylagringparameterCO2.epostantall * skylagringparameterCO2.kgsky;
+					break;
+					default: return;
 				}
 				calculateSkylagringCO2();
 
@@ -786,7 +790,7 @@
 				else {
 					return;
 				}
-				//Serum.Sandbox.refresh();
+				Serum.Sandbox.refresh();
 			}
 		});
 
