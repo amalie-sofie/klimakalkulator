@@ -57,6 +57,8 @@ header h1 {
 main {
 	width: 50vw;
 	padding-left: 30vw;
+	top: 60px;
+	position: absolute;
 }
 
 #introduksjon {
