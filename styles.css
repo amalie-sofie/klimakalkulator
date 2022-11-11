@@ -75,6 +75,7 @@ main {
 #seksjon {
 	height: 50vh;
 	padding-top: 10%;
+	padding-left: 30vh;
 	padding-bottom: 10%;
 	position: relative;
 }
