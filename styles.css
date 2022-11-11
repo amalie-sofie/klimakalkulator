@@ -56,10 +56,11 @@ output {
 #seksjon {
 	height: auto;
 	padding-top: 5%;
-	padding-left: 40vh;
+	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
 	font-size: 28px;
+	width: 50vw;
 }
 
 .pil {
