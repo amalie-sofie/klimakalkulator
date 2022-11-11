@@ -107,12 +107,12 @@ output {
 
 #jobb {
 	height: auto;
-	padding-left: 30vh;
+	padding-left: 15vh;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	position: relative;
 	font-size: 28px;
-	width: 70vw;
+	width: 80vw;
 }
 
 #resultat {
@@ -243,4 +243,8 @@ input[type=number] {
 
 table {
 	border: none;
+}
+
+td {
+	width: 40vw;
 }
