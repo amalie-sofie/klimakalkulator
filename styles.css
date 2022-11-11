@@ -11,6 +11,7 @@ body {
 	scroll-behavior: smooth;
 	line-height: 1;
 	background-color: #59BC7B;
+	height: auto;
   }
 
 header {
