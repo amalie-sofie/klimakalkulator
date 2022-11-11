@@ -41,6 +41,7 @@ main {
 #bilderseksjon {
 	width: 30vw;
 	padding-left: 10%;
+	position: relative;
 }
 
 output {
