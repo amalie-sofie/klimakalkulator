@@ -13,7 +13,6 @@ body {
 	background-color: #59BC7B;
   }
 
-/* HODE KROPP */
 header {
 	margin: 0!important;
 	text-align: left;
@@ -81,11 +80,6 @@ footer {
 
 h1 {
 	font-size: 48px;
-}
-
-
-#innhold {
-	display: block;
 }
 
 .container {
