@@ -63,27 +63,13 @@ main {
 }
 
 #introduksjon {
+	height: 70vh;
+}
+
+#seksjon {
 	height: 50vh;
-}
-
-#streaming {
-	height: 30vh;
-}
-
-#skylagring {
-	height: 30vh;
-}
-
-#nettbruk {
-	height: 30vh;
-}
-
-#morosamme {
-	height: 30vh;
-}
-
-#elartikler {
-	height: 30vh;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 footer {
