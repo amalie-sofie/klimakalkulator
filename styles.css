@@ -4,6 +4,7 @@ html {
 	font-weight: bold;
 	box-sizing: border-box;
 	margin: 0 !important;
+	scroll-behavior: smooth;
 }
 
 header {
