@@ -55,7 +55,7 @@ header h1 {
   }
 
 main {
-	top: 5%;
+	padding-top: 5%;
 	height: auto;
 	color: white;
 }
