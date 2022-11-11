@@ -5,6 +5,7 @@ const outputElement4 = document.querySelector("#output4");
 const outputElement5 = document.querySelector("#output5");
 const outputElement6 = document.querySelector("#output6");
 const outputElement7 = document.querySelector("#output7");
+const outputElement8 = document.querySelector("#output8");
 
 function refresh() {
 // UTREGNING STREAM
@@ -62,4 +63,8 @@ function refresh() {
   const sum50 = sum3 + sum4 + sum7 + sum11 + sum15 + sum16;
 
   outputElement7.textContent = sum50;
+
+  const sum51 = (sum50 + 7700) / 1000
+
+  outputElement8.textContent = sum51;
 }
