@@ -34,6 +34,10 @@ main {
 	width: 30vw;
 }
 
+img {
+	align-items: center;
+}
+
 #introduksjon {
 	height: 70vh;
 	font-size: 24px;
