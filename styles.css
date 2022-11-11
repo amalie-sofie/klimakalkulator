@@ -123,6 +123,7 @@ output {
 	position: relative;
 	opacity: .5;
 	scroll-behavior: smooth;
+	margin-top: -50px;
   }
   
 .pil:hover {
