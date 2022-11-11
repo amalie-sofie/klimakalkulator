@@ -54,7 +54,67 @@ output {
 	padding-right: 5%;
 }
 
-#seksjon {
+#streaming {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#skylagring {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#internettbruk {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#spilling {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#handel {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#jobb {
+	height: auto;
+	padding-top: 5%;
+	padding-left: 30vh;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#resultat {
 	height: auto;
 	padding-top: 5%;
 	padding-left: 30vh;
