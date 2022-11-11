@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -68,6 +69,7 @@ output {
 	bottom: 3vh;
 	position: absolute;
 	opacity: .5;
+	scroll-behavior: smooth;
   }
   
 .pil:hover {
