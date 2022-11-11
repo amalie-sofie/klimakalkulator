@@ -13,8 +13,16 @@ body {
 
 header {
 	background-color: aqua;
-	height: 10vh;
-	text-align: center;
+	height: 50px;
+	text-align: left;
+	margin: 0 !important;
+	text-align: left;
+	font-size: 25px;
+	font-family: "Gill Sans", Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	line-height: 1;
+	background-color: #59BC7B;
 }
 
 main {
