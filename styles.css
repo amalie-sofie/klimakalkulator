@@ -30,6 +30,10 @@ main {
 	font-weight: 800;
 }
 
+#bilder {
+	width: 30vw;
+}
+
 #introduksjon {
 	height: 70vh;
 	font-size: 24px;
