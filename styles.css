@@ -10,6 +10,7 @@ body {
 	font-size-adjust: auto;
 	scroll-behavior: smooth;
 	line-height: 1;
+	background-color: #59BC7B;
   }
 
 /* HODE KROPP */
@@ -21,7 +22,6 @@ header {
 	font-weight: bold;
 	color: white;
 	line-height: 1;
-	background-color: #59BC7B;
   }
   
 header table {
