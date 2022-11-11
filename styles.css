@@ -3,18 +3,17 @@ html {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: bold;
 	box-sizing: border-box;
-	margin: 0 !important;
 	scroll-behavior: smooth;
 }
 
 body {
 	width: 100vw;
+	margin: 0 !important;
 }
 
 header {
 	background-color: aqua;
 	height: 10vh;
-	width: 100vw;
 	text-align: center;
 }
 
