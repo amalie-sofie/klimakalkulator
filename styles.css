@@ -10,14 +10,14 @@ body {
 	font-size-adjust: auto;
 	scroll-behavior: smooth;
 	line-height: 1.5;
-	background-color: #59BC7B;
+	background-color: #F7F4F0;
 	height: auto;
   }
 
 main {
 	padding-top: 2%;
 	height: auto;
-	color: white;
+	color: #24282D;
 	margin:0!important;
 	width: 100%;
 }
