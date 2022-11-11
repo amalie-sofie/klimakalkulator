@@ -117,20 +117,33 @@ output {
 	width: 50vw;
 }
 
-.pil {
+.pil1 {
 	text-align: center;
 	bottom: 3vh;
 	position: relative;
 	opacity: .5;
 	scroll-behavior: smooth;
-	margin-top: -100px;
+  }
+  
+.pil1:hover {
+	text-align: center;
+	bottom: 3vh;
+	position: relative;
+	opacity: 1;
+  }
+
+  .pil {
+	text-align: center;
+	bottom: 3vh;
+	position: absolute;
+	opacity: .5;
+	scroll-behavior: smooth;
   }
   
 .pil:hover {
 	text-align: center;
 	bottom: 3vh;
-	position: relative;
-	opacity: 1;
+	position: absolute;
   }
 
 footer {
