@@ -154,15 +154,12 @@ output {
 	position: absolute;
   }
 
-footer {
-	font-size: 18px;
-	height: 200px;
-	background-color: white;
-	position: relative;
+h1 {
+	font-size: 58px;
 }
 
-h1 {
-	font-size: 48px;
+h2 {
+	font-size: 40px;
 }
 
 .container {
