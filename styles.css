@@ -7,6 +7,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	width: 100vw;
+}
+
 header {
 	background-color: aqua;
 	height: 10vh;
@@ -14,9 +18,7 @@ header {
 	text-align: center;
 }
 
-body {
-	width: 60vw;
-}
+
 #introduksjon {
 	background-color: white;
 	height: 50vh;
