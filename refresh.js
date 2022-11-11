@@ -50,7 +50,10 @@ function refresh() {
   outputElement5.textContent = sum15;
 
  // TOTALT DIGITAL JOBB 
-  const sum16 = ((get("digitaljobb") * 728));
+ const form = document.getElementById("digitaljobbcheckform");
+ console.log(form.elements["digitaljobbcheck"].value); 
+ 
+ const sum16 = ((get("digitaljobb") * 728));
 
   outputElement6.textContent = sum16;
  
