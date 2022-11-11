@@ -59,6 +59,7 @@ main {
 	padding-left: 30vw;
 	top: 60px;
 	position: absolute;
+	color: white;
 }
 
 #introduksjon {
@@ -89,6 +90,7 @@ main {
 footer {
 	font-size: 18px;
 	height: 100px;
+	background-color: white;
 }
 
 h1 {
