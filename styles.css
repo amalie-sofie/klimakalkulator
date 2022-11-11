@@ -79,6 +79,20 @@ main {
 	position: relative;
 }
 
+.pil {
+	text-align: center;
+	bottom: 3vh;
+	position: absolute;
+	opacity: .5;
+  }
+  
+.pil:hover {
+	text-align: center;
+	bottom: 3vh;
+	position: absolute;
+	opacity: 1;
+  }
+
 footer {
 	font-size: 18px;
 	height: 200px;
