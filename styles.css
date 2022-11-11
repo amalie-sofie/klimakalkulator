@@ -62,10 +62,10 @@ main {
 
 #overskrift {
 	padding-left: 5%;
-	font-size: 60px;
-	font-family: bd-retrocentric, sans-serif;
+	font-size: 80px;
+	font-family: roc-grotesk, sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 800;
 }
 
 #introduksjon {
