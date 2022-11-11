@@ -38,8 +38,9 @@ main {
 	margin-top: -60%;
 }
 
-img {
-	align-items: center;
+#bilderseksjon {
+	width: 30vw;
+	padding-left: 20%;
 }
 
 output {
