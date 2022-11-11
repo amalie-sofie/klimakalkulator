@@ -57,12 +57,14 @@ main {
 	width: 50vw;
 	padding-left: 30vw;
 	top: 60px;
-	position: fixed;
+	height: auto;
+	position: absolute;
 	color: white;
 }
 
 #introduksjon {
 	height: 70vh;
+	font-size: 28px;
 }
 
 #seksjon {
