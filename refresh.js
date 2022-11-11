@@ -34,7 +34,7 @@ function refresh() {
 
   const sum8 = ((get("spillkonsoll") * 50) / 1000) * 52;
   const sum9 = ((get("spillpc") * 90) / 1000) * 52;
-  const sum10 = ((get("kino") * 2400) / 1000) * 52;
+  const sum10 = ((get("kino") * 2400) / 1000) * 12;
 
   const sum11 = sum8 + sum9 + sum10;
 
