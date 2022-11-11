@@ -40,10 +40,11 @@ main {
 
 #seksjon {
 	height: 50vh;
-	padding-top: 10%;
-	padding-left: 30vh;
-	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-left: 40vh;
+	padding-bottom: 5%;
 	position: relative;
+	font-size: 28px;
 }
 
 .pil {
