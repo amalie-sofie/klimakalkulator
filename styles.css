@@ -18,6 +18,10 @@ header {
 	text-align: center;
 }
 
+main {
+	width: 50vw;
+	align-content: center;
+}
 
 #introduksjon {
 	background-color: white;
