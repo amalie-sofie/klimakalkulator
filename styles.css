@@ -1,13 +1,13 @@
-body {
+html {
 	margin: 0;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: bold;
+	width: 97.5vw;
 }
 
 header {
 	background-color: aqua;
 	height: 10vh;
-	width: 100vw;
 	text-align: center;
 }
 
