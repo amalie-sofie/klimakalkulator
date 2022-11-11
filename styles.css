@@ -56,7 +56,6 @@ output {
 
 #streaming {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -66,7 +65,6 @@ output {
 
 #skylagringgb {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -76,7 +74,6 @@ output {
 
 #internettbruk {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -86,7 +83,6 @@ output {
 
 #spilling {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -96,7 +92,6 @@ output {
 
 #handel {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -106,7 +101,6 @@ output {
 
 #jobb {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
@@ -116,7 +110,6 @@ output {
 
 #resultat {
 	height: auto;
-	padding-top: 5%;
 	padding-left: 30vh;
 	padding-bottom: 5%;
 	position: relative;
