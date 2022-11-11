@@ -26,7 +26,7 @@ header {
   
 header table {
 	width:100%;
-	height:10vh;
+	height:100px;
 	margin:0!important;
 	font-family: "Gill Sans", Helvetica, sans-serif;
 	text-align: center;
@@ -63,7 +63,6 @@ main {
 }
 
 #introduksjon {
-	background-color: white;
 	height: 50vh;
 }
 
@@ -89,8 +88,9 @@ main {
 
 footer {
 	font-size: 18px;
-	height: 100px;
+	height: 200px;
 	background-color: white;
+	position: relative;
 }
 
 h1 {
