@@ -55,11 +55,14 @@ header h1 {
   }
 
 main {
-	width: 50vw;
-	padding-left: 30vw;
 	top: 60px;
 	height: auto;
 	color: white;
+}
+
+#overskrift {
+	padding-left: 10%;
+	font-size: 60px;
 }
 
 #introduksjon {
