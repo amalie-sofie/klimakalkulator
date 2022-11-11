@@ -1,0 +1,246 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0!important;
+	font-size: 15px;
+	font-family: "Roc Grotesk", Helvetica, sans-serif;
+	font-weight: normal;
+	font-size-adjust: auto;
+	scroll-behavior: smooth;
+	line-height: 1.5;
+	background-color: #F7F4F0;
+	height: auto;
+  }
+
+main {
+	padding-top: 2%;
+	height: auto;
+	color: #24282D;
+	margin:0!important;
+	width: 100%;
+}
+
+#overskrift {
+	padding-left: 5%;
+	font-size: 90px;
+	font-family: roc-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	position: sticky;
+}
+
+#bilder {
+	width: 30vw;
+	padding-left: 20%;
+	margin-top: -60%;
+}
+
+#bilderseksjon {
+	width: 30vw;
+	padding-left: 20%;
+}
+
+output {
+	text-decoration: underline;
+}
+
+#introduksjon {
+	height: 70vh;
+	font-size: 24px;
+	position: relative;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+#streaming {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#skylagringgb {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#internettbruk {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#spilling {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#handel {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#jobb {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+#resultat {
+	height: auto;
+	padding-left: 30vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	font-size: 28px;
+	width: 50vw;
+}
+
+.pil1 {
+	text-align: center;
+	bottom: 3vh;
+	position: relative;
+	opacity: .5;
+	scroll-behavior: smooth;
+  }
+  
+.pil1:hover {
+	text-align: center;
+	bottom: 3vh;
+	position: relative;
+	opacity: 1;
+  }
+
+  .pil {
+	text-align: center;
+	bottom: 3vh;
+	position: absolute;
+	opacity: .5;
+	scroll-behavior: smooth;
+  }
+  
+.pil:hover {
+	text-align: center;
+	bottom: 3vh;
+	position: absolute;
+  }
+
+h1 {
+	font-size: 58px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+  }
+  
+  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #eee;
+	border-radius: 50%;
+  }
+  
+  .container:hover input ~ .checkmark {
+	background-color: #ccc;
+  }
+  
+  .container input:checked ~ .checkmark {
+	background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  .container .checkmark:after {
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+  }
+
+  input {
+	background-color: white;
+	width: 250px;
+	height: 50px;
+	font-size: 28px;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	border-radius: 25px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+table {
+	border: none;
+}
