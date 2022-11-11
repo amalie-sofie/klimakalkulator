@@ -63,7 +63,9 @@ main {
 #overskrift {
 	padding-left: 5%;
 	font-size: 48px;
-	font-weight: 900;
+	font-family: bd-retrocentric, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 #introduksjon {
