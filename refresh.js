@@ -50,8 +50,18 @@ function refresh() {
   outputElement5.textContent = sum15;
 
  // TOTALT DIGITAL JOBB 
- const form = document.getElementById("digitaljobbcheckform");
- console.log(form.elements["digitaljobbcheck"].value); 
+ var getSelectedValue = document.querySelector(   
+  'input[name="digitaljobbcheck"]:checked');   
+
+  if(getSelectedValue != null) {   
+    document.getElementById("disp").innerHTML   
+        = getSelectedValue.value   
+        + " season is selected";   
+}   
+
+   
+    
+ 
  
  const sum16 = ((get("digitaljobb") * 728));
 
