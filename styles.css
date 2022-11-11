@@ -127,7 +127,7 @@ output {
 .pil {
 	text-align: center;
 	bottom: 3vh;
-	position: absolute;
+	position: relative;
 	opacity: .5;
 	scroll-behavior: smooth;
   }
@@ -135,7 +135,7 @@ output {
 .pil:hover {
 	text-align: center;
 	bottom: 3vh;
-	position: absolute;
+	position: relative;
 	opacity: 1;
   }
 
